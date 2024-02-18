@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>currencyConverter</title>
+    <link rel ="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header"><h1>
+        Currency-Converter
+    </h1></div>
+    <div class="container">
+<form>
+<h1>Main</h1>
+<P style ="text-align: center;">Provide any number </P>
+<input type="text" value ="100" id = "typed" > 
+<div class="dropdown">
+    <div class="left">
+        <img id = "firstsrc"src ="https://flagsapi.com/US/shiny/64.png">
+        <select name="from">
+            
+        </select>
+    </div>
+
+   
+    <div class="right">
+        <img src ="https://flagsapi.com/IN/shiny/64.png" id="ssrc">
+<select name="to">
+ 
+</select>
+
+    </div>
+    
+    </div>
+    <p id="output">
+output is shown here
+    </p>
+    <div class="exchange">
+        <button id ="exchange">Exchange</button>
+    </div>
+</form>
+</div>
+
+    <script src ="logic.js"></script>
+</body>
+</html>
