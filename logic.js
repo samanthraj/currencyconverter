@@ -160,7 +160,7 @@ let countryList = {   AED: "AE",
 };
 let x = "usd";
 let z = "inr";
-
+changeflag();
 
 let given = document.querySelector("#typed");
   let allselect = document.querySelectorAll(".dropdown select")
@@ -215,8 +215,8 @@ btn.addEventListener("click", (evt) => {
 function changeflag(){
 
    
-   let f = "USD";
-   let k ="INR";
+   let f = "AED";
+   let k ="AED";
    
    
  
@@ -235,7 +235,7 @@ let fsrc = document.querySelector("#firstsrc")
  let link1 = fsrc.setAttribute("src", dynamicurl1)
 
 })
-k = "IN";
+k = "AED";
 
 let right = document.querySelector(".right select");
 
